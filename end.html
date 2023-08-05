@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Ended</title>
+  <link rel="stylesheet" href="endstyle.css">
+</head>
+<body>
+  <div class="end">
+    <h1>Time is up!</h1>
+    <div class="te">
+    <p>Thank you for taking the quiz.</p>
+    
+    <button class="retry-button" onclick="retryQuiz()">Retry</button>
+    </div>
+  </div>
+  <script>
+    function retryQuiz() {
+      // Redirect the user back to the start of the quiz (index.html)
+      window.location.href = "Frontend.html";
+    }
+  </script>
+</body>
+</html>
